@@ -1,3 +1,4 @@
+using MetodosREST.Models;
 using MetodosREST.Services;
 using Microsoft.AspNetCore.Mvc;
 
@@ -19,6 +20,44 @@ public class PessoaController : ControllerBase
     [HttpGet]
     public IActionResult Get()
     {
+        return Ok(_pessoaService.FindAll());
+    }
+
+    [HttpGet("{id}")]
+    public IActionResult GetID(long id)
+    {
+        Pessoa pessoa = _pessoaService.FindById(id);
+        if (pessoa == null)
+        {
+            return NotFound();
+        }
+        return Ok(pessoa);
+    }
+
+    [HttpPost]
+    public IActionResult Post([FromBody] Pessoa pessoa)
+    {
+        if (pessoa == null)
+        {
+            return BadRequest("");
+        }
+        return Ok(_pessoaService.Create(pessoa));
+    }
+
+    [HttpPut]
+    public IActionResult Update([FromBody] Pessoa pessoa)
+    {
+        if (pessoa == null)
+        {
+            return BadRequest("");
+        }
+        return Ok(_pessoaService.Update(pessoa));
+    }
+
+    [HttpDelete("{id}")]
+    public IActionResult Delete(long id)
+    {
+        _pessoaService.Delete(id);
         return NoContent();
     }
 }
