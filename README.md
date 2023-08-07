@@ -2,6 +2,21 @@
 
 Olá a todos, esse é o meu repositorio de um curso que eu comprei na udemy para aprender C#/.NET e aqui esta tudo desenvolvido no curso
 
+
+
+## O curso em números
+
+Atualizado em: 2023/08/07:
+
+| Informação | Dado |
+|---|---|
+| Nível de experiência | Todos os níveis |
+| Alunos | 6991 |
+| Idiomas | Português |
+| Legendas | Sim |
+| Aulas | 248 |
+| Vídeo | 19 horas no total |
+
 ## Descrição do curso
 
 ### O que você aprenderá
@@ -60,3 +75,23 @@ Enfim o objetivo central do curso é servir como um ponto de partida de onde os 
 + Para desenvolvedores back-end com conhecimentos de Java, Rails, Django, Node etc e desejam aprender como fazer o que sabem mas com outra tecnologia
 + Desenvolvedores front-end que desejam se tornal fullstack
 + Quem já tentou outros tutoriais sobre Webservices REST/RESTful e descobriu que eles eram muito lentos, desatualizados e chatos!
+
+### Sobre o Instrutor
+
+**Leandro Costa**
+
+Analista Desenvolvedor de Software
+
+[Linkedin](https://linkedin.com/in/ldcgsi/) | [Youtube](https://www.youtube.com/c/ErudioTraining) | [Blog](www.erudio.com.br/blog/)
+
+Eu sou Leandro Costa, analista de sistemas e desenvolvedor, bacharel em Sistemas de Informação com pós-graduação em Engenharia de Software. Trabalho a mais de 11 anos como desenvolvedor back-end e sou um entusiasta apaixonado pela área. Em todos esses anos eu errei bastante, aprendi muito com esses erros. Por isso sei o que você precisa aprender e com o que não deve perder seu tempo para ter uma carreira bem-sucedida na área de tecnologia.
+
+Comecei minha carreira com manutenção de computadores, impressoras e monitores - arriscava fuçar em tudo que tinha um chip dentro. Comecei a programar em Delphi e logo depois iniciei a faculdade onde me dediquei à aprender Java e GNU/Linux. Como desenvolvedor eu iniciei trabalhando com Delphi, depois Java com JSF e Spring, Groovy, depois AngularJS e me apaixonei por JavaScript. Atualmente trabalho com .NET Core e C# e estou gostando bastante principalmente depois que a plataforma virou Open Source. Já trabalhei em diferentes tamanhos de projetos nacionais e internacionais, em setores como varejo, farmacêutico, atacadista, marketing, governo, ERP e fintechs. Participei de projetos Agile, "Fake Agile", Cascata, RUP e claro me deparei com muito Extremme Go Horse e confesso que tive que fazer algumas gambiarras ao longo da carreira.
+
+Nos diferentes projetos em que trabalhei utilizei diversas tecnologias como Java, Spring, Hibernate, JSF, C#, Entity Framework, ASP.NET, Groovy, Grails, JavaScript, AngularJS, Docker, Docker Compose, MySQL, Postgrees, SQL Server, Oracle dentre outras.
+
+Atualmente tenho como objetivo ajudar você através de treinamentos eficientes e práticos na área de desenvolvimento, Agile, TDD, Integração Contínua, Docker, Clean Code e API's (SOA), especialmente RESTful API's. Sou apaixonado por transmitir conhecimentos e contribuir para que as pessoas se desenvolvam e alcancem o melhor de si.
+
+E me sinto muito gratificado em fazer parte da jornada de aprendizado da vida de muitos alunos e por essa razão eu estou empenhando em dar o meu melhor entregando conteúdos cada vez melhores e mais relevantes.
+
+
