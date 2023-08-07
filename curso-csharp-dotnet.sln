@@ -5,6 +5,8 @@ VisualStudioVersion = 17.0.31903.59
 MinimumVisualStudioVersion = 10.0.40219.1
 Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "CalculadoraREST", "CalculadoraREST\CalculadoraREST.csproj", "{BD8FB5DA-D13A-4BF1-A6BF-99D81D6E56FE}"
 EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MetodosREST", "MetodosREST\MetodosREST.csproj", "{6C35ED9C-9228-4E3A-B3B3-2E73DD173CD0}"
+EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
 		Debug|Any CPU = Debug|Any CPU
@@ -18,5 +20,9 @@ Global
 		{BD8FB5DA-D13A-4BF1-A6BF-99D81D6E56FE}.Debug|Any CPU.Build.0 = Debug|Any CPU
 		{BD8FB5DA-D13A-4BF1-A6BF-99D81D6E56FE}.Release|Any CPU.ActiveCfg = Release|Any CPU
 		{BD8FB5DA-D13A-4BF1-A6BF-99D81D6E56FE}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C35ED9C-9228-4E3A-B3B3-2E73DD173CD0}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C35ED9C-9228-4E3A-B3B3-2E73DD173CD0}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C35ED9C-9228-4E3A-B3B3-2E73DD173CD0}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C35ED9C-9228-4E3A-B3B3-2E73DD173CD0}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 EndGlobal
