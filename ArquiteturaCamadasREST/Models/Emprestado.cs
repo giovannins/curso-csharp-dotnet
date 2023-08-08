@@ -2,8 +2,8 @@ using System.ComponentModel.DataAnnotations.Schema;
 
 namespace ArquiteturaCamadasREST.Models;
 
-[Table("emprestados")]
-public class Emprestados
+[Table("emprestado")]
+public class Emprestado
 {
     [Column("id")]
     public long Id { get; set; }
