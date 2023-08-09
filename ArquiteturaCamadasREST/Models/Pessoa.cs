@@ -17,5 +17,5 @@ public class Pessoa
     public char Genero { get; set; }
     [Column("endereco")]
     public string Endereco { get; set; }
-    public ICollection<Emprestados> Emprestados { get; set; }
+    public ICollection<Emprestado> Emprestado { get; set; }
 }

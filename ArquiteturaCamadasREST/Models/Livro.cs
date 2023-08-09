@@ -15,6 +15,6 @@ public class Livro
     public int Edicao { get; set; }
     [Column("ano")]
     public int Ano { get; set; }
-    public ICollection<Emprestados> Emprestados { get; set; }
+    public ICollection<Emprestado> Emprestado { get; set; }
 
 }
