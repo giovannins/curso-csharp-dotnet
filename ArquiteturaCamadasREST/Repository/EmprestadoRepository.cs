@@ -14,6 +14,11 @@ public class EmprestadoRepository : IEmprestadoRepository
         _context = context;
     }
 
+    public Emprestado Borrowing(Emprestado emprestado)
+    {
+        throw new NotImplementedException();
+    }
+
     public List<Emprestado> FindAll()
     {
         throw new NotImplementedException();
@@ -30,6 +35,11 @@ public class EmprestadoRepository : IEmprestadoRepository
     }
 
     public List<Emprestado> FindByPessoa(long pessoaId)
+    {
+        throw new NotImplementedException();
+    }
+
+    public void Return(long id)
     {
         throw new NotImplementedException();
     }
