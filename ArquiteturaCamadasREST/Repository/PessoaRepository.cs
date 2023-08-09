@@ -7,14 +7,32 @@ namespace ArquiteturaCamadasREST.Repository;
 public class PessoaRepository : IPessoaRepository
 {
     private readonly MySQLContext _context;
-    public PessoaRepository(MySQLContext context)
+    private readonly ILogger<PessoaRepository> _logger;
+    public PessoaRepository(MySQLContext context, ILogger<PessoaRepository> logger)
     {
+        _logger = logger;
         _context = context;
     }
 
     public Pessoa Create(Pessoa pessoa)
     {
-        throw new NotImplementedException();
+        if (pessoa == null)
+        {
+            return new Pessoa();
+        }
+
+        try
+        {
+            _context.Pessoas.Add(pessoa);
+            _context.SaveChanges();
+        }
+        catch (Exception ex)
+        {
+            _logger.LogError(ex.Message.ToString());
+            throw;
+        }
+        return pessoa;
+
     }
 
     public void Delete(long id)
@@ -24,7 +42,7 @@ public class PessoaRepository : IPessoaRepository
 
     public List<Pessoa> FindAll()
     {
-        throw new NotImplementedException();
+        return _context.Pessoas.ToList();
     }
 
     public Pessoa FindById(long id)
