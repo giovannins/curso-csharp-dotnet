@@ -1,3 +1,4 @@
+using ArquiteturaCamadasREST.Models;
 using ArquiteturaCamadasREST.Models.Context;
 using ArquiteturaCamadasREST.Repository.Interfaces;
 
@@ -9,5 +10,30 @@ public class PessoaRepository : IPessoaRepository
     public PessoaRepository(MySQLContext context)
     {
         _context = context;
+    }
+
+    public Pessoa Create(Pessoa pessoa)
+    {
+        throw new NotImplementedException();
+    }
+
+    public void Delete(long id)
+    {
+        throw new NotImplementedException();
+    }
+
+    public List<Pessoa> FindAll()
+    {
+        throw new NotImplementedException();
+    }
+
+    public Pessoa FindById(long id)
+    {
+        throw new NotImplementedException();
+    }
+
+    public Pessoa Update(Pessoa pessoa)
+    {
+        throw new NotImplementedException();
     }
 }
